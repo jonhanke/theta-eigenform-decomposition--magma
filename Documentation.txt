@@ -1,0 +1,43 @@
+// =================================================================================
+// 
+// Brief Documentation for the MAGMA functions in "theta_eigenform_decomposition.m"
+// 
+// =================================================================================
+
+
+Make_Eisenstein_Series(Q2, prec)
+    Makes the Eisinstein series for the form Q (where Q2 = 2*Q) up to precision prec.
+
+
+Make_Theta_Series(Q2, prec)
+    Makes the Theta series for the form Q (where Q2 = 2*Q) up to precision prec.
+
+
+LevelOfQuadForm(B)
+    
+
+compute_cusp_constant(QQ, mndeg)
+    Compute the cuspidal constant of any positive definite quaternary 
+    integer-valued quadratic form, given here by the matrix of 2*Q.
+    (Note: This is really the same as the integer-matrix form, 
+    but at a lower level, since theta_{2Q}(z) = theta_{Q}(2z).) =)
+
+
+make_cusp_bound_for_auxiliary_form(i, logfile, mndeg)
+    This makes the cuspidal bounds for the Auxiliary Escalator Forms
+
+
+make_cusp_bound_for_basic_form(i, logfile, mndeg)
+    This makes the cuspidal bounds for the Basic Escalator Forms
+
+
+make_cusp_bounds_for_auxiliary_forms(index_list:  OUT_STRING := "/tmp/Auxiliary_Logs/Auxilliary_")
+    This makes the cuspidal bounds for the Auxiliary Forms
+
+make_cusp_bounds_for_basic_forms(index_list:  OUT_STRING := "/tmp/Basic_Logs/Basic_")
+    This makes the cuspidal bounds for the Basic Forms
+
+
+compute_cusp_dimension(QQ)
+    
+

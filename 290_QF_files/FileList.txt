@@ -1,0 +1,20 @@
+######################################################################
+## Files containing lists of Quaternary (4-variable) Quadratic Forms 
+## used in the proof of the 290-Theorem.
+######################################################################
+
+e4r.m -- This is a list of lists representing the Gram matrices of the 6560 "Basic Escalator" 
+      quadratic forms in four variables arising in the proof of the 290-Theorem.  These are 
+      given the global name 'Basic_Quaternaries'.
+
+104_auxiliary_quaternaries.m -- This is a list of lists representing the Gram matrices of the 
+      104 "Auxiliary Escalator" quadratic forms in four variables arising in the proof of the 
+      290-Theorem.  These are given the global name 'Auxiliary_Quaternaries'.
+
+
+290-cusp-all.m -- Datafile provided by William Stein that computes the cuspidal constants for 
+      the forms arising in the 290-Theorem.  (Read his old e-mail to see what everything means.)
+
+MND.txt -- A list of the maximal newform (field of definition) degrees for all cuspidal spaces 
+      of the level and character of the theta series of the [???WHICH ONES???] escalator forms.
+
